@@ -1,0 +1,7 @@
+language: objective-c
+xcode_workspace: GoogleMusicClient.xcworkspace
+xcode_scheme: GoogleMusicClient
+before_install: 
+    - export LC_ALL="en_US.UTF-8"
+    - gem install cocoapods
+
