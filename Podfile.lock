@@ -1,0 +1,22 @@
+PODS:
+  - CollectionFactory (1.0.1)
+  - MBHMAC (0.0.1)
+  - NSURL+QueryDictionary (1.0.2)
+  - OCHamcrestExtensions (1.0.1)
+  - OCMock (2.2.4)
+
+DEPENDENCIES:
+  - CollectionFactory
+  - MBHMAC
+  - NSURL+QueryDictionary
+  - OCHamcrestExtensions
+  - OCMock
+
+SPEC CHECKSUMS:
+  CollectionFactory: 91ac8bdcef1642214d0ed979592c91b940c90193
+  MBHMAC: 0c4d39b1bba552d2dcb4979ebaecfc391926b86d
+  NSURL+QueryDictionary: ac940196a1df0ab1a541e4abbb0c13eed2e8c0f0
+  OCHamcrestExtensions: 487c40c2035fa5fbfa1877ede863ed44b1529a79
+  OCMock: 5008fae4b4789b8fc3e48cd7660f2eb5ef8ce89e
+
+COCOAPODS: 0.32.1

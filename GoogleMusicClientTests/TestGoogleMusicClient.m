@@ -1,0 +1,29 @@
+#import "Test.h"
+#import "GoogleMusicClient.h"
+#import "GoogleMusicClientProtocol.h"
+#import "CollectionFactory.h"
+#import "GoogleMusicClientTestCase.h"
+#import "Track.h"
+
+@interface TestGoogleMusicClient : GoogleMusicClientTestCase
+
+@end
+
+@implementation TestGoogleMusicClient
+
+- (void)testConformsToGoogleMusicClientProtocol
+{
+    assertThat(self.client, conformsTo(@protocol(GoogleMusicClientProtocol)));
+}
+
+- (void)testFirstStageIsWaitingOnAuthToken
+{
+    assertThatInt(self.client.stage, equalToInt(GoogleMusicClientStageWaitingOnAuthToken));
+}
+
+- (void)testIsNotConnectedBeforeLoginIsPerformed
+{
+    assertFalse([self.client isLoggedIn]);
+}
+
+@end

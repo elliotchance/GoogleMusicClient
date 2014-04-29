@@ -1,13 +1,35 @@
-//
-//  GoogleMusicClient.h
-//  GoogleMusicClient
-//
-//  Created by Elliot Chance on 19/04/2014.
-//  Copyright (c) 2014 Elliot Chance. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
+#import "GoogleMusicClientProtocol.h"
+#import "GoogleMusicLibraryParserDelegate.h"
+#import "GoogleMusicLibraryParser.h"
 
-@interface GoogleMusicClient : NSObject
+typedef enum
+{
+    GoogleMusicClientStageWaitingOnAuthToken,
+    GoogleMusicClientStagePerformAuth
+} GoogleMusicClientStage;
+
+@interface GoogleMusicClient : NSObject <GoogleMusicClientProtocol, NSURLConnectionDelegate>
+
+@property BOOL loggedIn;
+@property NSString *authToken;
+@property GoogleMusicClientStage stage;
+@property NSString *xtToken;
+@property BOOL loginAborted;
+@property NSMutableDictionary *theProfileSettings;
+@property id<GoogleMusicClientDelegate> loginDelegate;
+
+- (void)resetLoginStatus;
+- (void)abortLogin;
++ (NSUInteger)maximumWaitTimeForRequest;
+- (void)loadProfileSettings;
+- (id)labProfileSetting:(NSString *)name;
+- (id)profileSettingForKeyPath:(NSString *)keyPath;
+- (void)requestService:(NSString *)service
+     completionHandler:(void (^)(NSURLResponse *response, NSData *data, NSError *connectionError))handler;
+- (void)fetchAllTracksWithDelegate:(id<GoogleMusicLibraryParserDelegate>)delegate;
+- (GoogleMusicLibraryParser *)libraryParserWithHTML:(NSString *)html;
+- (NSMutableURLRequest *)requestForService:(NSString *)service;
+- (NSData *)synchronouslyRequestService:(NSString *)service;
 
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25AEAD14C530442190AB9886 /* libPods-GoogleMusicClientTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A51D62AD2B1E4EA396DA9513 /* libPods-GoogleMusicClientTests.a */; };
+		5835EE47A68A4177BA2E807C /* libPods-GoogleMusicClientIntegrationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F09AD72B6BD941059304C275 /* libPods-GoogleMusicClientIntegrationTests.a */; };
 		8B1C0E961902627400CCD141 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1C0E951902627400CCD141 /* Cocoa.framework */; };
 		8B1C0EA01902627400CCD141 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B1C0E9E1902627400CCD141 /* InfoPlist.strings */; };
 		8B1C0EA41902627400CCD141 /* GoogleMusicClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C0EA31902627400CCD141 /* GoogleMusicClient.m */; };
@@ -14,7 +16,42 @@
 		8B1C0EAC1902627400CCD141 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1C0E951902627400CCD141 /* Cocoa.framework */; };
 		8B1C0EAF1902627400CCD141 /* GoogleMusicClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1C0E921902627400CCD141 /* GoogleMusicClient.framework */; };
 		8B1C0EB51902627400CCD141 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B1C0EB31902627400CCD141 /* InfoPlist.strings */; };
-		8B1C0EB71902627400CCD141 /* GoogleMusicClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C0EB61902627400CCD141 /* GoogleMusicClientTests.m */; };
+		8B1C0EC5190264C100CCD141 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1C0EAA1902627400CCD141 /* XCTest.framework */; };
+		8B1C0ECB190264C100CCD141 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B1C0EC9190264C100CCD141 /* InfoPlist.strings */; };
+		8B1C0ED5190267F300CCD141 /* TestGoogleMusicClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C0ED4190267F300CCD141 /* TestGoogleMusicClient.m */; };
+		8B1C0EDD190267FD00CCD141 /* TestGoogleMusicClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C0ED6190267FD00CCD141 /* TestGoogleMusicClient.m */; };
+		8B1C0EDE190267FD00CCD141 /* TestGoogleMusicClientGettingAllTracks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C0ED7190267FD00CCD141 /* TestGoogleMusicClientGettingAllTracks.m */; };
+		8B1C0EDF190267FD00CCD141 /* TestGoogleMusicClientProfileSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C0ED8190267FD00CCD141 /* TestGoogleMusicClientProfileSettings.m */; };
+		8B1C0EE1190267FD00CCD141 /* TestGoogleMusicLibraryParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C0EDA190267FD00CCD141 /* TestGoogleMusicLibraryParser.m */; };
+		8B1C0EE2190267FD00CCD141 /* TestGoogleMusicTrackParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C0EDB190267FD00CCD141 /* TestGoogleMusicTrackParser.m */; };
+		8B1C0EE3190267FD00CCD141 /* TestGoogleMusicTrackParserCanExtract.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C0EDC190267FD00CCD141 /* TestGoogleMusicTrackParserCanExtract.m */; };
+		8B25AE8B190E4EBC001EAA36 /* Track.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B25AE89190E4EBC001EAA36 /* Track.h */; };
+		8B25AE8C190E4EBC001EAA36 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AE8A190E4EBC001EAA36 /* Track.m */; };
+		8B25AE95190E4ECF001EAA36 /* GoogleMusicClientDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B25AE8D190E4ECF001EAA36 /* GoogleMusicClientDelegate.h */; };
+		8B25AE96190E4ECF001EAA36 /* GoogleMusicClientProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B25AE8E190E4ECF001EAA36 /* GoogleMusicClientProtocol.h */; };
+		8B25AE97190E4ECF001EAA36 /* GoogleMusicLibraryParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B25AE8F190E4ECF001EAA36 /* GoogleMusicLibraryParser.h */; };
+		8B25AE98190E4ECF001EAA36 /* GoogleMusicLibraryParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AE90190E4ECF001EAA36 /* GoogleMusicLibraryParser.m */; };
+		8B25AE99190E4ECF001EAA36 /* GoogleMusicLibraryParserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B25AE91190E4ECF001EAA36 /* GoogleMusicLibraryParserDelegate.h */; };
+		8B25AE9A190E4ECF001EAA36 /* GoogleMusicLibraryParserSongDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B25AE92190E4ECF001EAA36 /* GoogleMusicLibraryParserSongDelegate.h */; };
+		8B25AE9B190E4ECF001EAA36 /* GoogleMusicTrackParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B25AE93190E4ECF001EAA36 /* GoogleMusicTrackParser.h */; };
+		8B25AE9C190E4ECF001EAA36 /* GoogleMusicTrackParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AE94190E4ECF001EAA36 /* GoogleMusicTrackParser.m */; };
+		8B25AE9F190E4F2B001EAA36 /* RandomStringGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B25AE9D190E4F2B001EAA36 /* RandomStringGenerator.h */; };
+		8B25AEA0190E4F2B001EAA36 /* RandomStringGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AE9E190E4F2B001EAA36 /* RandomStringGenerator.m */; };
+		8B25AEA3190E4F52001EAA36 /* StreamURLForTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B25AEA1190E4F52001EAA36 /* StreamURLForTrack.h */; };
+		8B25AEA4190E4F52001EAA36 /* StreamURLForTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AEA2190E4F52001EAA36 /* StreamURLForTrack.m */; };
+		8B25AEA7190E4F6E001EAA36 /* Downloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B25AEA5190E4F6E001EAA36 /* Downloader.h */; };
+		8B25AEA8190E4F6E001EAA36 /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AEA6190E4F6E001EAA36 /* Downloader.m */; };
+		8B25AEAF190E61AA001EAA36 /* TestDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AEA9190E61AA001EAA36 /* TestDownloader.m */; };
+		8B25AEB0190E61AA001EAA36 /* TestRandomStringGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AEAA190E61AA001EAA36 /* TestRandomStringGenerator.m */; };
+		8B25AEB1190E61AA001EAA36 /* TestStreamURLForTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AEAB190E61AA001EAA36 /* TestStreamURLForTrack.m */; };
+		8B25AEB2190E61AA001EAA36 /* TestStreamURLForTrackParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AEAC190E61AA001EAA36 /* TestStreamURLForTrackParameters.m */; };
+		8B25AEB3190E61AA001EAA36 /* TestTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AEAD190E61AA001EAA36 /* TestTrack.m */; };
+		8B25AEB4190E61AA001EAA36 /* TestTrackAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AEAE190E61AA001EAA36 /* TestTrackAttribute.m */; };
+		8B25AEB8190E629D001EAA36 /* GoogleMusicClientTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AEB7190E629D001EAA36 /* GoogleMusicClientTestCase.m */; };
+		8B25AEB9190E629D001EAA36 /* GoogleMusicClientTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AEB7190E629D001EAA36 /* GoogleMusicClientTestCase.m */; };
+		8B25AEBD190E657F001EAA36 /* XCTestCase+AsyncTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AEBC190E657F001EAA36 /* XCTestCase+AsyncTesting.m */; };
+		8B25AEBE190E657F001EAA36 /* XCTestCase+AsyncTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AEBC190E657F001EAA36 /* XCTestCase+AsyncTesting.m */; };
+		CC0A9EB927F6489B9EA0037A /* libPods-GoogleMusicClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1565CA06C7A451F827900E9 /* libPods-GoogleMusicClient.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,9 +62,18 @@
 			remoteGlobalIDString = 8B1C0E911902627400CCD141;
 			remoteInfo = GoogleMusicClient;
 		};
+		8B1C0ECF190264C100CCD141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B1C0E891902627400CCD141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B1C0E911902627400CCD141;
+			remoteInfo = GoogleMusicClient;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01BDCBFBBDF04C469AFEA64B /* Pods-GoogleMusicClientTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMusicClientTests.xcconfig"; path = "Pods/Pods-GoogleMusicClientTests.xcconfig"; sourceTree = "<group>"; };
+		0470E17484B746AF9AC92580 /* Pods-GoogleMusicClient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMusicClient.xcconfig"; path = "Pods/Pods-GoogleMusicClient.xcconfig"; sourceTree = "<group>"; };
 		8B1C0E921902627400CCD141 /* GoogleMusicClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleMusicClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B1C0E951902627400CCD141 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		8B1C0E981902627400CCD141 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,7 +88,48 @@
 		8B1C0EAA1902627400CCD141 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8B1C0EB21902627400CCD141 /* GoogleMusicClientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleMusicClientTests-Info.plist"; sourceTree = "<group>"; };
 		8B1C0EB41902627400CCD141 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8B1C0EB61902627400CCD141 /* GoogleMusicClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleMusicClientTests.m; sourceTree = "<group>"; };
+		8B1C0EC4190264C100CCD141 /* GoogleMusicClientIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleMusicClientIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1C0EC8190264C100CCD141 /* GoogleMusicClientIntegrationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleMusicClientIntegrationTests-Info.plist"; sourceTree = "<group>"; };
+		8B1C0ECA190264C100CCD141 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B1C0ECE190264C100CCD141 /* GoogleMusicClientIntegrationTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoogleMusicClientIntegrationTests-Prefix.pch"; sourceTree = "<group>"; };
+		8B1C0ED4190267F300CCD141 /* TestGoogleMusicClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGoogleMusicClient.m; sourceTree = "<group>"; };
+		8B1C0ED6190267FD00CCD141 /* TestGoogleMusicClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGoogleMusicClient.m; sourceTree = "<group>"; };
+		8B1C0ED7190267FD00CCD141 /* TestGoogleMusicClientGettingAllTracks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGoogleMusicClientGettingAllTracks.m; sourceTree = "<group>"; };
+		8B1C0ED8190267FD00CCD141 /* TestGoogleMusicClientProfileSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGoogleMusicClientProfileSettings.m; sourceTree = "<group>"; };
+		8B1C0EDA190267FD00CCD141 /* TestGoogleMusicLibraryParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGoogleMusicLibraryParser.m; sourceTree = "<group>"; };
+		8B1C0EDB190267FD00CCD141 /* TestGoogleMusicTrackParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGoogleMusicTrackParser.m; sourceTree = "<group>"; };
+		8B1C0EDC190267FD00CCD141 /* TestGoogleMusicTrackParserCanExtract.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGoogleMusicTrackParserCanExtract.m; sourceTree = "<group>"; };
+		8B25AE89190E4EBC001EAA36 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		8B25AE8A190E4EBC001EAA36 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
+		8B25AE8D190E4ECF001EAA36 /* GoogleMusicClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMusicClientDelegate.h; sourceTree = "<group>"; };
+		8B25AE8E190E4ECF001EAA36 /* GoogleMusicClientProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMusicClientProtocol.h; sourceTree = "<group>"; };
+		8B25AE8F190E4ECF001EAA36 /* GoogleMusicLibraryParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMusicLibraryParser.h; sourceTree = "<group>"; };
+		8B25AE90190E4ECF001EAA36 /* GoogleMusicLibraryParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleMusicLibraryParser.m; sourceTree = "<group>"; };
+		8B25AE91190E4ECF001EAA36 /* GoogleMusicLibraryParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMusicLibraryParserDelegate.h; sourceTree = "<group>"; };
+		8B25AE92190E4ECF001EAA36 /* GoogleMusicLibraryParserSongDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMusicLibraryParserSongDelegate.h; sourceTree = "<group>"; };
+		8B25AE93190E4ECF001EAA36 /* GoogleMusicTrackParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMusicTrackParser.h; sourceTree = "<group>"; };
+		8B25AE94190E4ECF001EAA36 /* GoogleMusicTrackParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleMusicTrackParser.m; sourceTree = "<group>"; };
+		8B25AE9D190E4F2B001EAA36 /* RandomStringGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomStringGenerator.h; sourceTree = "<group>"; };
+		8B25AE9E190E4F2B001EAA36 /* RandomStringGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomStringGenerator.m; sourceTree = "<group>"; };
+		8B25AEA1190E4F52001EAA36 /* StreamURLForTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamURLForTrack.h; sourceTree = "<group>"; };
+		8B25AEA2190E4F52001EAA36 /* StreamURLForTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamURLForTrack.m; sourceTree = "<group>"; };
+		8B25AEA5190E4F6E001EAA36 /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
+		8B25AEA6190E4F6E001EAA36 /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Downloader.m; sourceTree = "<group>"; };
+		8B25AEA9190E61AA001EAA36 /* TestDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDownloader.m; sourceTree = "<group>"; };
+		8B25AEAA190E61AA001EAA36 /* TestRandomStringGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestRandomStringGenerator.m; sourceTree = "<group>"; };
+		8B25AEAB190E61AA001EAA36 /* TestStreamURLForTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestStreamURLForTrack.m; sourceTree = "<group>"; };
+		8B25AEAC190E61AA001EAA36 /* TestStreamURLForTrackParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestStreamURLForTrackParameters.m; sourceTree = "<group>"; };
+		8B25AEAD190E61AA001EAA36 /* TestTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTrack.m; sourceTree = "<group>"; };
+		8B25AEAE190E61AA001EAA36 /* TestTrackAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTrackAttribute.m; sourceTree = "<group>"; };
+		8B25AEB6190E629D001EAA36 /* GoogleMusicClientTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMusicClientTestCase.h; sourceTree = "<group>"; };
+		8B25AEB7190E629D001EAA36 /* GoogleMusicClientTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleMusicClientTestCase.m; sourceTree = "<group>"; };
+		8B25AEBA190E62E1001EAA36 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		8B25AEBB190E657F001EAA36 /* XCTestCase+AsyncTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+AsyncTesting.h"; sourceTree = "<group>"; };
+		8B25AEBC190E657F001EAA36 /* XCTestCase+AsyncTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+AsyncTesting.m"; sourceTree = "<group>"; };
+		A51D62AD2B1E4EA396DA9513 /* libPods-GoogleMusicClientTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleMusicClientTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B206D55F14884181B4962DA0 /* Pods-GoogleMusicClientIntegrationTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMusicClientIntegrationTests.xcconfig"; path = "Pods/Pods-GoogleMusicClientIntegrationTests.xcconfig"; sourceTree = "<group>"; };
+		E1565CA06C7A451F827900E9 /* libPods-GoogleMusicClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleMusicClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09AD72B6BD941059304C275 /* libPods-GoogleMusicClientIntegrationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleMusicClientIntegrationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B1C0E961902627400CCD141 /* Cocoa.framework in Frameworks */,
+				CC0A9EB927F6489B9EA0037A /* libPods-GoogleMusicClient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +149,16 @@
 				8B1C0EAC1902627400CCD141 /* Cocoa.framework in Frameworks */,
 				8B1C0EAF1902627400CCD141 /* GoogleMusicClient.framework in Frameworks */,
 				8B1C0EAB1902627400CCD141 /* XCTest.framework in Frameworks */,
+				25AEAD14C530442190AB9886 /* libPods-GoogleMusicClientTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B1C0EC1190264C100CCD141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1C0EC5190264C100CCD141 /* XCTest.framework in Frameworks */,
+				5835EE47A68A4177BA2E807C /* libPods-GoogleMusicClientIntegrationTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,9 +169,14 @@
 			isa = PBXGroup;
 			children = (
 				8B1C0E9B1902627400CCD141 /* GoogleMusicClient */,
+				8B25AEB5190E629D001EAA36 /* Tests */,
 				8B1C0EB01902627400CCD141 /* GoogleMusicClientTests */,
+				8B1C0EC6190264C100CCD141 /* GoogleMusicClientIntegrationTests */,
 				8B1C0E941902627400CCD141 /* Frameworks */,
 				8B1C0E931902627400CCD141 /* Products */,
+				B206D55F14884181B4962DA0 /* Pods-GoogleMusicClientIntegrationTests.xcconfig */,
+				01BDCBFBBDF04C469AFEA64B /* Pods-GoogleMusicClientTests.xcconfig */,
+				0470E17484B746AF9AC92580 /* Pods-GoogleMusicClient.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +185,7 @@
 			children = (
 				8B1C0E921902627400CCD141 /* GoogleMusicClient.framework */,
 				8B1C0EA91902627400CCD141 /* GoogleMusicClientTests.xctest */,
+				8B1C0EC4190264C100CCD141 /* GoogleMusicClientIntegrationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,6 +196,9 @@
 				8B1C0E951902627400CCD141 /* Cocoa.framework */,
 				8B1C0EAA1902627400CCD141 /* XCTest.framework */,
 				8B1C0E971902627400CCD141 /* Other Frameworks */,
+				F09AD72B6BD941059304C275 /* libPods-GoogleMusicClientIntegrationTests.a */,
+				A51D62AD2B1E4EA396DA9513 /* libPods-GoogleMusicClientTests.a */,
+				E1565CA06C7A451F827900E9 /* libPods-GoogleMusicClient.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,9 +216,25 @@
 		8B1C0E9B1902627400CCD141 /* GoogleMusicClient */ = {
 			isa = PBXGroup;
 			children = (
+				8B25AEA5190E4F6E001EAA36 /* Downloader.h */,
+				8B25AEA6190E4F6E001EAA36 /* Downloader.m */,
 				8B1C0EA21902627400CCD141 /* GoogleMusicClient.h */,
 				8B1C0EA31902627400CCD141 /* GoogleMusicClient.m */,
+				8B25AE8D190E4ECF001EAA36 /* GoogleMusicClientDelegate.h */,
+				8B25AE8E190E4ECF001EAA36 /* GoogleMusicClientProtocol.h */,
+				8B25AE8F190E4ECF001EAA36 /* GoogleMusicLibraryParser.h */,
+				8B25AE90190E4ECF001EAA36 /* GoogleMusicLibraryParser.m */,
+				8B25AE91190E4ECF001EAA36 /* GoogleMusicLibraryParserDelegate.h */,
+				8B25AE92190E4ECF001EAA36 /* GoogleMusicLibraryParserSongDelegate.h */,
+				8B25AE93190E4ECF001EAA36 /* GoogleMusicTrackParser.h */,
+				8B25AE94190E4ECF001EAA36 /* GoogleMusicTrackParser.m */,
+				8B25AE9D190E4F2B001EAA36 /* RandomStringGenerator.h */,
+				8B25AE9E190E4F2B001EAA36 /* RandomStringGenerator.m */,
+				8B25AEA1190E4F52001EAA36 /* StreamURLForTrack.h */,
+				8B25AEA2190E4F52001EAA36 /* StreamURLForTrack.m */,
 				8B1C0E9C1902627400CCD141 /* Supporting Files */,
+				8B25AE89190E4EBC001EAA36 /* Track.h */,
+				8B25AE8A190E4EBC001EAA36 /* Track.m */,
 			);
 			path = GoogleMusicClient;
 			sourceTree = "<group>";
@@ -129,8 +252,19 @@
 		8B1C0EB01902627400CCD141 /* GoogleMusicClientTests */ = {
 			isa = PBXGroup;
 			children = (
-				8B1C0EB61902627400CCD141 /* GoogleMusicClientTests.m */,
 				8B1C0EB11902627400CCD141 /* Supporting Files */,
+				8B25AEA9190E61AA001EAA36 /* TestDownloader.m */,
+				8B1C0ED6190267FD00CCD141 /* TestGoogleMusicClient.m */,
+				8B1C0ED7190267FD00CCD141 /* TestGoogleMusicClientGettingAllTracks.m */,
+				8B1C0ED8190267FD00CCD141 /* TestGoogleMusicClientProfileSettings.m */,
+				8B1C0EDA190267FD00CCD141 /* TestGoogleMusicLibraryParser.m */,
+				8B1C0EDB190267FD00CCD141 /* TestGoogleMusicTrackParser.m */,
+				8B1C0EDC190267FD00CCD141 /* TestGoogleMusicTrackParserCanExtract.m */,
+				8B25AEAA190E61AA001EAA36 /* TestRandomStringGenerator.m */,
+				8B25AEAB190E61AA001EAA36 /* TestStreamURLForTrack.m */,
+				8B25AEAC190E61AA001EAA36 /* TestStreamURLForTrackParameters.m */,
+				8B25AEAD190E61AA001EAA36 /* TestTrack.m */,
+				8B25AEAE190E61AA001EAA36 /* TestTrackAttribute.m */,
 			);
 			path = GoogleMusicClientTests;
 			sourceTree = "<group>";
@@ -144,6 +278,37 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8B1C0EC6190264C100CCD141 /* GoogleMusicClientIntegrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B1C0ED4190267F300CCD141 /* TestGoogleMusicClient.m */,
+				8B1C0EC7190264C100CCD141 /* Supporting Files */,
+			);
+			path = GoogleMusicClientIntegrationTests;
+			sourceTree = "<group>";
+		};
+		8B1C0EC7190264C100CCD141 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B1C0EC8190264C100CCD141 /* GoogleMusicClientIntegrationTests-Info.plist */,
+				8B1C0EC9190264C100CCD141 /* InfoPlist.strings */,
+				8B1C0ECE190264C100CCD141 /* GoogleMusicClientIntegrationTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B25AEB5190E629D001EAA36 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8B25AEB6190E629D001EAA36 /* GoogleMusicClientTestCase.h */,
+				8B25AEB7190E629D001EAA36 /* GoogleMusicClientTestCase.m */,
+				8B25AEBA190E62E1001EAA36 /* Test.h */,
+				8B25AEBB190E657F001EAA36 /* XCTestCase+AsyncTesting.h */,
+				8B25AEBC190E657F001EAA36 /* XCTestCase+AsyncTesting.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -151,6 +316,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B25AEA3190E4F52001EAA36 /* StreamURLForTrack.h in Headers */,
+				8B25AE99190E4ECF001EAA36 /* GoogleMusicLibraryParserDelegate.h in Headers */,
+				8B25AE9B190E4ECF001EAA36 /* GoogleMusicTrackParser.h in Headers */,
+				8B25AE97190E4ECF001EAA36 /* GoogleMusicLibraryParser.h in Headers */,
+				8B25AE9A190E4ECF001EAA36 /* GoogleMusicLibraryParserSongDelegate.h in Headers */,
+				8B25AE9F190E4F2B001EAA36 /* RandomStringGenerator.h in Headers */,
+				8B25AE96190E4ECF001EAA36 /* GoogleMusicClientProtocol.h in Headers */,
+				8B25AEA7190E4F6E001EAA36 /* Downloader.h in Headers */,
+				8B25AE8B190E4EBC001EAA36 /* Track.h in Headers */,
+				8B25AE95190E4ECF001EAA36 /* GoogleMusicClientDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,10 +336,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B1C0EBA1902627400CCD141 /* Build configuration list for PBXNativeTarget "GoogleMusicClient" */;
 			buildPhases = (
+				2209CEDE6DF8435C8F8F6DFC /* Check Pods Manifest.lock */,
 				8B1C0E8D1902627400CCD141 /* Sources */,
 				8B1C0E8E1902627400CCD141 /* Frameworks */,
 				8B1C0E8F1902627400CCD141 /* Headers */,
 				8B1C0E901902627400CCD141 /* Resources */,
+				3F511F085E44432DA33D6087 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,9 +356,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B1C0EBD1902627400CCD141 /* Build configuration list for PBXNativeTarget "GoogleMusicClientTests" */;
 			buildPhases = (
+				99BCFD83353D4C1B80AE8255 /* Check Pods Manifest.lock */,
 				8B1C0EA51902627400CCD141 /* Sources */,
 				8B1C0EA61902627400CCD141 /* Frameworks */,
 				8B1C0EA71902627400CCD141 /* Resources */,
+				E78A886C435C4C1C868B2747 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,6 +370,26 @@
 			name = GoogleMusicClientTests;
 			productName = GoogleMusicClientTests;
 			productReference = 8B1C0EA91902627400CCD141 /* GoogleMusicClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B1C0EC3190264C100CCD141 /* GoogleMusicClientIntegrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B1C0ED1190264C100CCD141 /* Build configuration list for PBXNativeTarget "GoogleMusicClientIntegrationTests" */;
+			buildPhases = (
+				672FD64737BF4CB18A04998C /* Check Pods Manifest.lock */,
+				8B1C0EC0190264C100CCD141 /* Sources */,
+				8B1C0EC1190264C100CCD141 /* Frameworks */,
+				8B1C0EC2190264C100CCD141 /* Resources */,
+				1935E45210664210B66EA5B5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B1C0ED0190264C100CCD141 /* PBXTargetDependency */,
+			);
+			name = GoogleMusicClientIntegrationTests;
+			productName = GoogleMusicClientIntegrationTests;
+			productReference = 8B1C0EC4190264C100CCD141 /* GoogleMusicClientIntegrationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -203,6 +402,9 @@
 				ORGANIZATIONNAME = "Elliot Chance";
 				TargetAttributes = {
 					8B1C0EA81902627400CCD141 = {
+						TestTargetID = 8B1C0E911902627400CCD141;
+					};
+					8B1C0EC3190264C100CCD141 = {
 						TestTargetID = 8B1C0E911902627400CCD141;
 					};
 				};
@@ -221,6 +423,7 @@
 			targets = (
 				8B1C0E911902627400CCD141 /* GoogleMusicClient */,
 				8B1C0EA81902627400CCD141 /* GoogleMusicClientTests */,
+				8B1C0EC3190264C100CCD141 /* GoogleMusicClientIntegrationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,7 +445,108 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8B1C0EC2190264C100CCD141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1C0ECB190264C100CCD141 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1935E45210664210B66EA5B5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-GoogleMusicClientIntegrationTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2209CEDE6DF8435C8F8F6DFC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3F511F085E44432DA33D6087 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-GoogleMusicClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		672FD64737BF4CB18A04998C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		99BCFD83353D4C1B80AE8255 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E78A886C435C4C1C868B2747 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-GoogleMusicClientTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8B1C0E8D1902627400CCD141 /* Sources */ = {
@@ -250,6 +554,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B1C0EA41902627400CCD141 /* GoogleMusicClient.m in Sources */,
+				8B25AEA0190E4F2B001EAA36 /* RandomStringGenerator.m in Sources */,
+				8B25AE8C190E4EBC001EAA36 /* Track.m in Sources */,
+				8B25AEA8190E4F6E001EAA36 /* Downloader.m in Sources */,
+				8B25AEA4190E4F52001EAA36 /* StreamURLForTrack.m in Sources */,
+				8B25AE98190E4ECF001EAA36 /* GoogleMusicLibraryParser.m in Sources */,
+				8B25AE9C190E4ECF001EAA36 /* GoogleMusicTrackParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +567,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B1C0EB71902627400CCD141 /* GoogleMusicClientTests.m in Sources */,
+				8B1C0EDE190267FD00CCD141 /* TestGoogleMusicClientGettingAllTracks.m in Sources */,
+				8B25AEB2190E61AA001EAA36 /* TestStreamURLForTrackParameters.m in Sources */,
+				8B25AEB4190E61AA001EAA36 /* TestTrackAttribute.m in Sources */,
+				8B25AEB0190E61AA001EAA36 /* TestRandomStringGenerator.m in Sources */,
+				8B25AEBD190E657F001EAA36 /* XCTestCase+AsyncTesting.m in Sources */,
+				8B25AEB8190E629D001EAA36 /* GoogleMusicClientTestCase.m in Sources */,
+				8B25AEAF190E61AA001EAA36 /* TestDownloader.m in Sources */,
+				8B1C0EE1190267FD00CCD141 /* TestGoogleMusicLibraryParser.m in Sources */,
+				8B1C0EE3190267FD00CCD141 /* TestGoogleMusicTrackParserCanExtract.m in Sources */,
+				8B1C0EE2190267FD00CCD141 /* TestGoogleMusicTrackParser.m in Sources */,
+				8B25AEB1190E61AA001EAA36 /* TestStreamURLForTrack.m in Sources */,
+				8B1C0EDF190267FD00CCD141 /* TestGoogleMusicClientProfileSettings.m in Sources */,
+				8B1C0EDD190267FD00CCD141 /* TestGoogleMusicClient.m in Sources */,
+				8B25AEB3190E61AA001EAA36 /* TestTrack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B1C0EC0190264C100CCD141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1C0ED5190267F300CCD141 /* TestGoogleMusicClient.m in Sources */,
+				8B25AEBE190E657F001EAA36 /* XCTestCase+AsyncTesting.m in Sources */,
+				8B25AEB9190E629D001EAA36 /* GoogleMusicClientTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +601,11 @@
 			isa = PBXTargetDependency;
 			target = 8B1C0E911902627400CCD141 /* GoogleMusicClient */;
 			targetProxy = 8B1C0EAD1902627400CCD141 /* PBXContainerItemProxy */;
+		};
+		8B1C0ED0190264C100CCD141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B1C0E911902627400CCD141 /* GoogleMusicClient */;
+			targetProxy = 8B1C0ECF190264C100CCD141 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -284,6 +622,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				8B1C0EB41902627400CCD141 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8B1C0EC9190264C100CCD141 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B1C0ECA190264C100CCD141 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -363,6 +709,7 @@
 		};
 		8B1C0EBB1902627400CCD141 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0470E17484B746AF9AC92580 /* Pods-GoogleMusicClient.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -378,6 +725,7 @@
 		};
 		8B1C0EBC1902627400CCD141 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0470E17484B746AF9AC92580 /* Pods-GoogleMusicClient.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -393,6 +741,7 @@
 		};
 		8B1C0EBE1902627400CCD141 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01BDCBFBBDF04C469AFEA64B /* Pods-GoogleMusicClientTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoogleMusicClient.framework/Versions/A/GoogleMusicClient";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -415,6 +764,7 @@
 		};
 		8B1C0EBF1902627400CCD141 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01BDCBFBBDF04C469AFEA64B /* Pods-GoogleMusicClientTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoogleMusicClient.framework/Versions/A/GoogleMusicClient";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -427,6 +777,42 @@
 				INFOPLIST_FILE = "GoogleMusicClientTests/GoogleMusicClientTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		8B1C0ED2190264C100CCD141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B206D55F14884181B4962DA0 /* Pods-GoogleMusicClientIntegrationTests.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleMusicClientIntegrationTests/GoogleMusicClientIntegrationTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GoogleMusicClientIntegrationTests/GoogleMusicClientIntegrationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8B1C0ED3190264C100CCD141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B206D55F14884181B4962DA0 /* Pods-GoogleMusicClientIntegrationTests.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleMusicClientIntegrationTests/GoogleMusicClientIntegrationTests-Prefix.pch";
+				INFOPLIST_FILE = "GoogleMusicClientIntegrationTests/GoogleMusicClientIntegrationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -450,6 +836,7 @@
 				8B1C0EBC1902627400CCD141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B1C0EBD1902627400CCD141 /* Build configuration list for PBXNativeTarget "GoogleMusicClientTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +845,16 @@
 				8B1C0EBF1902627400CCD141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B1C0ED1190264C100CCD141 /* Build configuration list for PBXNativeTarget "GoogleMusicClientIntegrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1C0ED2190264C100CCD141 /* Debug */,
+				8B1C0ED3190264C100CCD141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
