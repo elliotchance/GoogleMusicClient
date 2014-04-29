@@ -21,7 +21,6 @@
 		8B1C0ED5190267F300CCD141 /* TestGoogleMusicClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C0ED4190267F300CCD141 /* TestGoogleMusicClient.m */; };
 		8B1C0EDD190267FD00CCD141 /* TestGoogleMusicClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C0ED6190267FD00CCD141 /* TestGoogleMusicClient.m */; };
 		8B1C0EDE190267FD00CCD141 /* TestGoogleMusicClientGettingAllTracks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C0ED7190267FD00CCD141 /* TestGoogleMusicClientGettingAllTracks.m */; };
-		8B1C0EDF190267FD00CCD141 /* TestGoogleMusicClientProfileSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C0ED8190267FD00CCD141 /* TestGoogleMusicClientProfileSettings.m */; };
 		8B1C0EE1190267FD00CCD141 /* TestGoogleMusicLibraryParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C0EDA190267FD00CCD141 /* TestGoogleMusicLibraryParser.m */; };
 		8B1C0EE2190267FD00CCD141 /* TestGoogleMusicTrackParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C0EDB190267FD00CCD141 /* TestGoogleMusicTrackParser.m */; };
 		8B1C0EE3190267FD00CCD141 /* TestGoogleMusicTrackParserCanExtract.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C0EDC190267FD00CCD141 /* TestGoogleMusicTrackParserCanExtract.m */; };
@@ -51,6 +50,14 @@
 		8B25AEB9190E629D001EAA36 /* GoogleMusicClientTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AEB7190E629D001EAA36 /* GoogleMusicClientTestCase.m */; };
 		8B25AEBD190E657F001EAA36 /* XCTestCase+AsyncTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AEBC190E657F001EAA36 /* XCTestCase+AsyncTesting.m */; };
 		8B25AEBE190E657F001EAA36 /* XCTestCase+AsyncTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AEBC190E657F001EAA36 /* XCTestCase+AsyncTesting.m */; };
+		8B25AEC2190FB7C5001EAA36 /* GoogleMusicClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C0EA31902627400CCD141 /* GoogleMusicClient.m */; };
+		8B25AEC3190FB7D4001EAA36 /* GoogleMusicLibraryParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AE90190E4ECF001EAA36 /* GoogleMusicLibraryParser.m */; };
+		8B25AEC4190FB7DD001EAA36 /* GoogleMusicTrackParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AE94190E4ECF001EAA36 /* GoogleMusicTrackParser.m */; };
+		8B25AEC5190FB7E9001EAA36 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AE8A190E4EBC001EAA36 /* Track.m */; };
+		8B25AEC6190FB7F2001EAA36 /* StreamURLForTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AEA2190E4F52001EAA36 /* StreamURLForTrack.m */; };
+		8B25AEC7190FB7FC001EAA36 /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AEA6190E4F6E001EAA36 /* Downloader.m */; };
+		8B25AEC8190FB800001EAA36 /* RandomStringGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AE9E190E4F2B001EAA36 /* RandomStringGenerator.m */; };
+		8B25AECA190FC062001EAA36 /* TestGoogleMusicClientProfileSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25AEC9190FC062001EAA36 /* TestGoogleMusicClientProfileSettings.m */; };
 		CC0A9EB927F6489B9EA0037A /* libPods-GoogleMusicClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1565CA06C7A451F827900E9 /* libPods-GoogleMusicClient.a */; };
 /* End PBXBuildFile section */
 
@@ -95,7 +102,6 @@
 		8B1C0ED4190267F300CCD141 /* TestGoogleMusicClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGoogleMusicClient.m; sourceTree = "<group>"; };
 		8B1C0ED6190267FD00CCD141 /* TestGoogleMusicClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGoogleMusicClient.m; sourceTree = "<group>"; };
 		8B1C0ED7190267FD00CCD141 /* TestGoogleMusicClientGettingAllTracks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGoogleMusicClientGettingAllTracks.m; sourceTree = "<group>"; };
-		8B1C0ED8190267FD00CCD141 /* TestGoogleMusicClientProfileSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGoogleMusicClientProfileSettings.m; sourceTree = "<group>"; };
 		8B1C0EDA190267FD00CCD141 /* TestGoogleMusicLibraryParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGoogleMusicLibraryParser.m; sourceTree = "<group>"; };
 		8B1C0EDB190267FD00CCD141 /* TestGoogleMusicTrackParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGoogleMusicTrackParser.m; sourceTree = "<group>"; };
 		8B1C0EDC190267FD00CCD141 /* TestGoogleMusicTrackParserCanExtract.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGoogleMusicTrackParserCanExtract.m; sourceTree = "<group>"; };
@@ -126,6 +132,7 @@
 		8B25AEBA190E62E1001EAA36 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		8B25AEBB190E657F001EAA36 /* XCTestCase+AsyncTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+AsyncTesting.h"; sourceTree = "<group>"; };
 		8B25AEBC190E657F001EAA36 /* XCTestCase+AsyncTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+AsyncTesting.m"; sourceTree = "<group>"; };
+		8B25AEC9190FC062001EAA36 /* TestGoogleMusicClientProfileSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGoogleMusicClientProfileSettings.m; sourceTree = "<group>"; };
 		A51D62AD2B1E4EA396DA9513 /* libPods-GoogleMusicClientTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleMusicClientTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B206D55F14884181B4962DA0 /* Pods-GoogleMusicClientIntegrationTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMusicClientIntegrationTests.xcconfig"; path = "Pods/Pods-GoogleMusicClientIntegrationTests.xcconfig"; sourceTree = "<group>"; };
 		E1565CA06C7A451F827900E9 /* libPods-GoogleMusicClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleMusicClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -256,7 +263,6 @@
 				8B25AEA9190E61AA001EAA36 /* TestDownloader.m */,
 				8B1C0ED6190267FD00CCD141 /* TestGoogleMusicClient.m */,
 				8B1C0ED7190267FD00CCD141 /* TestGoogleMusicClientGettingAllTracks.m */,
-				8B1C0ED8190267FD00CCD141 /* TestGoogleMusicClientProfileSettings.m */,
 				8B1C0EDA190267FD00CCD141 /* TestGoogleMusicLibraryParser.m */,
 				8B1C0EDB190267FD00CCD141 /* TestGoogleMusicTrackParser.m */,
 				8B1C0EDC190267FD00CCD141 /* TestGoogleMusicTrackParserCanExtract.m */,
@@ -281,8 +287,9 @@
 		8B1C0EC6190264C100CCD141 /* GoogleMusicClientIntegrationTests */ = {
 			isa = PBXGroup;
 			children = (
-				8B1C0ED4190267F300CCD141 /* TestGoogleMusicClient.m */,
 				8B1C0EC7190264C100CCD141 /* Supporting Files */,
+				8B1C0ED4190267F300CCD141 /* TestGoogleMusicClient.m */,
+				8B25AEC9190FC062001EAA36 /* TestGoogleMusicClientProfileSettings.m */,
 			);
 			path = GoogleMusicClientIntegrationTests;
 			sourceTree = "<group>";
@@ -578,7 +585,6 @@
 				8B1C0EE3190267FD00CCD141 /* TestGoogleMusicTrackParserCanExtract.m in Sources */,
 				8B1C0EE2190267FD00CCD141 /* TestGoogleMusicTrackParser.m in Sources */,
 				8B25AEB1190E61AA001EAA36 /* TestStreamURLForTrack.m in Sources */,
-				8B1C0EDF190267FD00CCD141 /* TestGoogleMusicClientProfileSettings.m in Sources */,
 				8B1C0EDD190267FD00CCD141 /* TestGoogleMusicClient.m in Sources */,
 				8B25AEB3190E61AA001EAA36 /* TestTrack.m in Sources */,
 			);
@@ -588,9 +594,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B25AEC5190FB7E9001EAA36 /* Track.m in Sources */,
+				8B25AEC8190FB800001EAA36 /* RandomStringGenerator.m in Sources */,
+				8B25AEC6190FB7F2001EAA36 /* StreamURLForTrack.m in Sources */,
+				8B25AEC7190FB7FC001EAA36 /* Downloader.m in Sources */,
 				8B1C0ED5190267F300CCD141 /* TestGoogleMusicClient.m in Sources */,
+				8B25AEC3190FB7D4001EAA36 /* GoogleMusicLibraryParser.m in Sources */,
 				8B25AEBE190E657F001EAA36 /* XCTestCase+AsyncTesting.m in Sources */,
+				8B25AECA190FC062001EAA36 /* TestGoogleMusicClientProfileSettings.m in Sources */,
 				8B25AEB9190E629D001EAA36 /* GoogleMusicClientTestCase.m in Sources */,
+				8B25AEC2190FB7C5001EAA36 /* GoogleMusicClient.m in Sources */,
+				8B25AEC4190FB7DD001EAA36 /* GoogleMusicTrackParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

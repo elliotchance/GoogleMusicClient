@@ -18,7 +18,7 @@
 
 - (void)testFirstStageIsWaitingOnAuthToken
 {
-    assertThatInt(self.client.stage, equalToInt(GoogleMusicClientStageWaitingOnAuthToken));
+    assertThatInt(((GoogleMusicClient *)self.client).stage, equalToInt(GoogleMusicClientStageWaitingOnAuthToken));
 }
 
 - (void)testIsNotConnectedBeforeLoginIsPerformed

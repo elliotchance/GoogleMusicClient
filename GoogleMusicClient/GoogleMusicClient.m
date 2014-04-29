@@ -18,6 +18,7 @@
               password:(NSString *)password
               delegate:(id<GoogleMusicClientDelegate>)delegate
 {
+    [self resetLoginStatus];
     self.loginDelegate = delegate;
     NSString *post = [NSString stringWithFormat:@"&Email=%@&Passwd=%@&service=sj", email, password];
     NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];

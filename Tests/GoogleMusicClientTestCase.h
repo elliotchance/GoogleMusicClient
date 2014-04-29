@@ -3,7 +3,7 @@
 
 @interface GoogleMusicClientTestCase : XCTestCase <GoogleMusicClientDelegate>
 
-@property GoogleMusicClient *client;
+@property id<GoogleMusicClientProtocol> client;
 @property NSString *email;
 @property NSString *password;
 

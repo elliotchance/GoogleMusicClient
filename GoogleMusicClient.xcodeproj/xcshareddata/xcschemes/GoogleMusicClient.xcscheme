@@ -38,6 +38,16 @@
                ReferencedContainer = "container:GoogleMusicClient.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8B1C0EC3190264C100CCD141"
+               BuildableName = "GoogleMusicClientIntegrationTests.xctest"
+               BlueprintName = "GoogleMusicClientIntegrationTests"
+               ReferencedContainer = "container:GoogleMusicClient.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

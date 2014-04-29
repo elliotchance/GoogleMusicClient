@@ -1,7 +1,7 @@
 #import "Test.h"
 #import "GoogleMusicClientTestCase.h"
 
-static GoogleMusicClient *client = nil;
+static id<GoogleMusicClientProtocol> client = nil;
 
 @interface TestGoogleMusicClientSettings : GoogleMusicClientTestCase
 
@@ -19,17 +19,6 @@ static GoogleMusicClient *client = nil;
     else {
         self.client = client;
     }
-}
-
-- (void)testCanBeDownloaded
-{
-    NSDictionary *googleMusicSettings = [self.client profileSettings];
-    assertThat(googleMusicSettings, hasKey(@"settings"));
-}
-
-- (void)testInvalidLabProfileSettingNameThrowsException
-{
-    XCTAssertThrowsSpecificNamed([self.client labProfileSetting:@"Bla Bla"], NSException, @"NoSuchProfileSetting");
 }
 
 - (void)testHasDesktopNotifications
@@ -60,11 +49,6 @@ static GoogleMusicClient *client = nil;
 - (void)testAccountIsCanceled
 {
     assertFalse([self.client accountIsCanceled]);
-}
-
-- (void)testInvalidSettingNameThrowsException
-{
-    XCTAssertThrowsSpecificNamed([self.client profileSettingForKeyPath:@"bla.bla"], NSException, @"NoSuchProfileSetting");
 }
 
 - (void)testAccountIsSubscription

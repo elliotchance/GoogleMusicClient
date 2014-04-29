@@ -13,17 +13,32 @@
 
 @implementation TestGoogleMusicClient
 
+- (void)setUp
+{
+    [super setUp];
+    [self login];
+}
+
+- (void)testSettingsCanBeDownloaded
+{
+    NSDictionary *googleMusicSettings = [self.client profileSettings];
+    assertThat(googleMusicSettings, hasKey(@"settings"));
+}
+
+- (void)testInvalidLabProfileSettingNameThrowsException
+{
+    GoogleMusicClient *client = (GoogleMusicClient *)self.client;
+    XCTAssertThrowsSpecificNamed([client labProfileSetting:@"Bla Bla"], NSException, @"NoSuchProfileSetting");
+}
+
 - (void)testCanConnectToGoogleMusicSuccessfully
 {
-    [self login];
     assertTrue([self.client isLoggedIn]);
 }
 
 - (void)testWillNotReportAsLoggedInIfTheCredentialsAreWrong
 {
-    NSString *email = [[[self.client settings] valueForKeyPath:Settings_login_email] description];
-    NSString *password = @"wrong_password";
-    [self.client loginWithEmail:email password:password delegate:self];
+    [self.client loginWithEmail:self.email password:@"wrong_password" delegate:self];
     [self waitForTimeout:[GoogleMusicClient maximumWaitTimeForRequest]];
     
     assertFalse([self.client isLoggedIn]);
