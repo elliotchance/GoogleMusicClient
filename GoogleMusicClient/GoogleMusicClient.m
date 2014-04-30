@@ -1,4 +1,4 @@
-#import <CollectionFactory/CollectionFactory.h>
+#import <CollectionFactory.h>
 #import "GoogleMusicClient.h"
 
 @implementation GoogleMusicClient
