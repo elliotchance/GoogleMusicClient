@@ -11,11 +11,6 @@
 
 @implementation TestGoogleMusicClient
 
-- (void)testConformsToGoogleMusicClientProtocol
-{
-    assertThat(self.client, conformsTo(@protocol(GoogleMusicClientProtocol)));
-}
-
 - (void)testFirstStageIsWaitingOnAuthToken
 {
     assertThatInt(((GoogleMusicClient *)self.client).stage, equalToInt(GoogleMusicClientStageWaitingOnAuthToken));

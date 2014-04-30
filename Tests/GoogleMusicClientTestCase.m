@@ -25,21 +25,6 @@
 {
 }
 
-- (void)setUp
-{
-    [super setUp];
-    
-    NSString *settingsPath = @"Settings.json";
-    if(![[NSFileManager defaultManager] fileExistsAtPath:settingsPath]) {
-        XCTFail("%@ does not exist. Create it with the format {\"email\":\"foo\",\"password\":\"bar\"}.", settingsPath);
-    }
-    
-    NSMutableDictionary *settings = [NSMutableDictionary mutableDictionaryWithJsonFile:settingsPath];
-    self.email = [settings valueForKey:@"email"];
-    self.password = [settings valueForKey:@"password"];
-    self.client = [[GoogleMusicClient alloc] init];
-}
-
 - (void)login
 {
     [self.client loginWithEmail:self.email password:self.password delegate:self];
