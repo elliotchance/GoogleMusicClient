@@ -1,6 +1,6 @@
 #import <NSURL+QueryDictionary.h>
 #import <MBHMAC/NSString+MBHMAC.h>
-#import <CollectionFactory.h>
+#import "CollectionFactory.h"
 #import "StreamURLForTrack.h"
 #import "RandomStringGenerator.h"
 #import "Downloader.h"
