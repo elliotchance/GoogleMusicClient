@@ -134,6 +134,7 @@
 		8B25AEBC190E657F001EAA36 /* XCTestCase+AsyncTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+AsyncTesting.m"; sourceTree = "<group>"; };
 		8B25AEC9190FC062001EAA36 /* TestGoogleMusicClientProfileSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGoogleMusicClientProfileSettings.m; sourceTree = "<group>"; };
 		8B25AECB191108CB001EAA36 /* GoogleMusicClient.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = GoogleMusicClient.podspec; sourceTree = "<group>"; };
+		8B25AECC19110B40001EAA36 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		A51D62AD2B1E4EA396DA9513 /* libPods-GoogleMusicClientTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleMusicClientTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B206D55F14884181B4962DA0 /* Pods-GoogleMusicClientIntegrationTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMusicClientIntegrationTests.xcconfig"; path = "Pods/Pods-GoogleMusicClientIntegrationTests.xcconfig"; sourceTree = "<group>"; };
 		E1565CA06C7A451F827900E9 /* libPods-GoogleMusicClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleMusicClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,6 +177,7 @@
 		8B1C0E881902627400CCD141 = {
 			isa = PBXGroup;
 			children = (
+				8B25AECC19110B40001EAA36 /* README.md */,
 				8B25AECB191108CB001EAA36 /* GoogleMusicClient.podspec */,
 				8B1C0E9B1902627400CCD141 /* GoogleMusicClient */,
 				8B25AEB5190E629D001EAA36 /* Tests */,

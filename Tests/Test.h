@@ -3,7 +3,7 @@
 
 #import <XCTest/XCTest.h>
 #import <OCMock/OCMock.h>
-#import <CollectionFactory/CollectionFactory.h>
+#import <CollectionFactory.h>
 #import "XCTestCase+AsyncTesting.h"
 
 // All tests should be using hamcrest :)

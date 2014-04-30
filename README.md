@@ -17,7 +17,7 @@ pod 'GoogleMusicClient'
 Then include it in your source code:
 
 ```
-#import <GoogleMusicClient/GoogleMusicClient.h>
+#import <GoogleMusicClient.h>
 ```
 
 Basic Client
