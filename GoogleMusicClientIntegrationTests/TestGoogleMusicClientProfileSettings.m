@@ -1,5 +1,5 @@
 #import "Test.h"
-#import "GoogleMusicClientTestCase.h"
+#import "Test.h"
 
 static id<GoogleMusicClientProtocol> client = nil;
 

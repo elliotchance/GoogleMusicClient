@@ -1,5 +1,7 @@
 #import <Foundation/Foundation.h>
-#import "GoogleMusicClientDelegate.h"
+
+@protocol GoogleMusicLibraryParserDelegate;
+@protocol GoogleMusicClientDelegate;
 
 @protocol GoogleMusicClientProtocol <NSObject>
 

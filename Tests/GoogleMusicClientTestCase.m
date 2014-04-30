@@ -1,7 +1,5 @@
 #import "Test.h"
 #import "GoogleMusicClientTestCase.h"
-#import "CollectionFactory.h"
-#import "GoogleMusicClientDelegate.h"
 #import "XCTestCase+AsyncTesting.h"
 
 @implementation GoogleMusicClientTestCase

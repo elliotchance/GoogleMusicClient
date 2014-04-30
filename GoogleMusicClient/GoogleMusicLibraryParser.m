@@ -1,6 +1,5 @@
-#import <CollectionFactory/NSArray+CollectionFactory.h>
-#import "GoogleMusicLibraryParser.h"
-#import "GoogleMusicTrackParser.h"
+#import <CollectionFactory/CollectionFactory.h>
+#import "GoogleMusicClient.h"
 
 /**
  * This is a hack because self is destroyed for some reason when [webView:didFinishLoadForFrame:] is called.

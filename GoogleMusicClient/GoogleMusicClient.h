@@ -2,6 +2,11 @@
 #import "GoogleMusicClientProtocol.h"
 #import "GoogleMusicLibraryParserDelegate.h"
 #import "GoogleMusicLibraryParser.h"
+#import "GoogleMusicClientDelegate.h"
+#import "GoogleMusicTrackParser.h"
+#import "Track.h"
+#import "StreamURLForTrack.h"
+#import "Downloader.h"
 
 typedef enum
 {

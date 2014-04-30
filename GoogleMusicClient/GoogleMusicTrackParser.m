@@ -1,4 +1,4 @@
-#import "GoogleMusicTrackParser.h"
+#import "GoogleMusicClient.h"
 
 @implementation GoogleMusicTrackParser
 

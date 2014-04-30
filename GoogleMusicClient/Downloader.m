@@ -1,6 +1,5 @@
-#import <CollectionFactory/NSDictionary+CollectionFactory.h>
+#import <CollectionFactory/CollectionFactory.h>
 #import "Downloader.h"
-#import "CollectionFactory.h"
 
 @implementation Downloader
 

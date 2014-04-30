@@ -1,11 +1,6 @@
 #import <XCTest/XCTest.h>
 #import <OCMock/OCMock.h>
 #import "Test.h"
-#import "GoogleMusicClient.h"
-#import "GoogleMusicClientProtocol.h"
-#import "XCTestCase+AsyncTesting.h"
-#import "CollectionFactory.h"
-#import "GoogleMusicClientTestCase.h"
 
 @interface TestGoogleMusicClient : GoogleMusicClientTestCase
 

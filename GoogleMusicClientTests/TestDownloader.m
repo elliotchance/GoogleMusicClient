@@ -1,5 +1,3 @@
-#import <XCTest/XCTest.h>
-#import "Downloader.h"
 #import "Test.h"
 
 #define NOT_USED nil

@@ -1,5 +1,6 @@
 #import <Foundation/Foundation.h>
-#import "Downloader.h"
+
+@class Downloader;
 
 @interface StreamURLForTrack : NSObject
 

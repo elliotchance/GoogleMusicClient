@@ -1,9 +1,6 @@
 #import <objc/runtime.h>
-#import <CollectionFactory/NSObject+CollectionFactory.h>
-#import <CollectionFactory/NSArray+CollectionFactory.h>
-#import "Track.h"
-#import "RandomStringGenerator.h"
-#import "StreamURLForTrack.h"
+#import <CollectionFactory/CollectionFactory.h>
+#import "GoogleMusicClient.h"
 
 @implementation Track
 

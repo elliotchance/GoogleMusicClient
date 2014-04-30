@@ -1,5 +1,6 @@
 #import <Foundation/Foundation.h>
-#import "Track.h"
+
+@class Track;
 
 enum GoogleMusicTrackParserField
 {

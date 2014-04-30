@@ -1,5 +1,4 @@
 #import "Test.h"
-#import "GoogleMusicClient.h"
 
 @interface GoogleMusicClientTestCase : XCTestCase <GoogleMusicClientDelegate>
 

@@ -1,8 +1,4 @@
 #import "Test.h"
-#import "GoogleMusicClient.h"
-#import "GoogleMusicClientProtocol.h"
-#import "CollectionFactory.h"
-#import "GoogleMusicClientTestCase.h"
 
 @interface TestGoogleMusicClientGettingAllTracks : GoogleMusicClientTestCase
 

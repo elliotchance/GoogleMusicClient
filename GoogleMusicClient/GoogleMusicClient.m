@@ -1,7 +1,5 @@
-#import <CollectionFactory/NSMutableDictionary+CollectionFactory.h>
+#import <CollectionFactory/CollectionFactory.h>
 #import "GoogleMusicClient.h"
-#import "GoogleMusicLibraryParser.h"
-#import "GoogleMusicTrackParser.h"
 
 @implementation GoogleMusicClient
 

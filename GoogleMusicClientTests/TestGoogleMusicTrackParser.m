@@ -1,7 +1,4 @@
 #import "Test.h"
-#import "GoogleMusicTrackParser.h"
-#import "Track.h"
-#import "CollectionFactory.h"
 
 @interface TestGoogleMusicTrackParser : XCTestCase
 

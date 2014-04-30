@@ -1,7 +1,8 @@
 #import <Foundation/Foundation.h>
 #import <WebKit/WebKit.h>
 #import "GoogleMusicLibraryParserSongDelegate.h"
-#import "GoogleMusicLibraryParserDelegate.h"
+
+@protocol GoogleMusicLibraryParserDelegate;
 
 @interface GoogleMusicLibraryParser : NSObject <GoogleMusicLibraryParserSongDelegate>
 
