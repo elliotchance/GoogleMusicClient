@@ -25,6 +25,6 @@
 - (NSDate *)accountExpireTime;
 
 // media library
-- (void)fetchAllTracksWithDelegate:(id)delegate;
+- (void)fetchAllTracksWithDelegate:(id<GoogleMusicLibraryParserDelegate>)delegate;
 
 @end
